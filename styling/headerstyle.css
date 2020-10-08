@@ -1,0 +1,83 @@
+.imgFilter{
+    filter:brightness(0.50);
+
+}
+.newColorPurple{
+    background-color:  #8f4a8a;
+    border: none;
+    color: white;
+
+}
+
+
+.logo1{
+    animation: scaleLogo 2s infinite alternate;
+
+}
+@keyframes scaleLogo{
+    to{
+        transform: scale(1.2);
+
+    }
+}
+*{
+    scroll-behavior: smooth;
+
+}
+
+.cardImg:hover{
+    transition: transform 2s;
+    transform: scale(1.1);
+}
+
+.cardImg{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    /* justify-content: space-evenly; */
+}
+
+/* top btn */
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    /* background-color:gray;      */
+    bottom: 40px;
+    right: 20px;
+    text-align: center;
+    /* text-decoration: none; */
+    /* line-height: 50px; */
+    /* color: green; */
+    font-size: 22px;
+    scroll-behavior: smooth;
+    color: transparent;
+    opacity: 0.5;
+
+}
+
+/* aboutus */
+.completepara{
+    text-align: center !important;
+}
+.btn{
+    
+    height: auto;
+    width: auto;
+    align-self: center;
+
+}
+.contactpara{
+    text-align: center;
+}
+.links{
+    color:#fff !important;
+    font-weight: bold
+}
+
+.promotionheading{
+    color: black;
+    font-size: 30px;
+}
+
+

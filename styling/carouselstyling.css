@@ -1,0 +1,167 @@
+/* carousel styling  */
+
+.Cheading{
+    color: white;
+}
+.Cpara{
+    color:white;
+}
+
+ .carousel{
+    margin-bottom: 2rem;
+    z-index: 200;
+} 
+
+.marketing .col-lg-4{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2{
+    font-weight: 400;
+}
+.marketing .col-lg-4 p{
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+.featurette-divider{
+    margin:5rem 0;
+
+}
+.featurette-heading{
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.5rem;
+}
+@media (min-width:40em){
+    .carousel-caption p{
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+
+    }
+    .featurette-heading{
+        font-size: 50px;
+    }
+    
+}
+
+@media (min-width){
+    .featurette-heading{
+        margin-top: 7rem;
+
+    }
+}
+
+
+
+
+/* footer styling */
+.p {
+    color: #999;
+    line-height: 25px;
+}
+
+h2,
+h3 {
+    color: #fff;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.footer-top {
+    background:blue;
+    padding: 10px 0;
+}
+
+.segment-one h3 {
+    color: white;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-one p {
+    color: white;
+}
+
+.segment-two h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.segment-two h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-one ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.segment-one ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 30px;
+}
+
+.segment-three h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: blue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 60%;
+}
+
+.segment-three a i {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.footer-bottom-text {
+    background-color: lightblue;
+    padding-left: 60px;
+    line-height: 50px;
+    
+}
+
+@media only screen and(min-width:768px) and (max-width:991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and(min-width:767px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}
+
+.segment-three {
+    margin-left: 200px;
+}
+
+.segment-two {
+    margin-left: 60px;
+}
+

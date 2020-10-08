@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orders</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styling/headerstyle.css">
+
+  <link rel="stylesheet" href="styling/carouselstyling.css">
+</head>
+<body onload="readOrder()">
+    
+    <header>
+        <nav class="navbar  navbar-expand-md navbar-dark newColorPurple text-white">
+          <a href="#" class=" logo1 text-white navbar-brand"><i class="fa fa-heartbeat" aria-hidden="true"> Online
+              Pharmacy</i>
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto menu">
+              <li class="nav-item active">
+                <a href="admin.html" class="nav-link"> Orders</a>
+              </li>
+    
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Edit Orders</a>
+              </li>
+              <!-- <li class="nav-item active">
+                <a href="#surgicalinstruements" class="nav-link"> Surgical Instruements</a>
+              </li> -->
+              <li class="nav-item active">
+                <a target="_blank" href="index.html" class="nav-link">Website</a>
+              </li>
+              <li class="nav-item active">
+                <a target="_blank" href="cart.html" class="nav-link"> Shoping cart</a>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <a href="index.html" class="text-white nav-link">
+                Exit
+              </a>
+              
+            </form>
+          </div>
+        </nav>
+    
+      </header>
+      <!-- header ends -->
+      <div class="container mt-4">
+          <div class="row">
+              <div id="firstSection" class="col-md-6">
+                <form class="border p-4 mb-4" id="form">
+                    <div class="form-group">
+                        <label > Order</label>
+                        <input type="text" class="form-control" id="order" placeholder="order">
+                    </div>
+                    <div class="form-group">
+                        <label > Total</label>
+                        <input type="text" class="form-control" id="total" placeholder="total">
+                    </div>
+
+                    <button type="submit" id="button1" class="btn btn-primary">
+                        <i class="fa fa-plus"></i>Add Order
+                    </button>
+
+                    <button style="display:none ;" class="btn btn-success" id="button2">
+                    </button>
+
+                    <button style="display:none ;" class="btn btn-danger" id="button3">
+                    </button>
+
+                </form>
+              </div>
+
+              <div class="col-md-6" id="cardSection">
+
+              </div>
+          </div>
+      </div>
+
+
+
+
+
+
+         <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+<!-- bootstrap ends -->
+
+
+
+<!-- sweet alert -->
+<!-- <script src="node_modules/sweetlert2/dist/sweetalert2.all.min.js"></script> -->
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<!-- firebase script -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+
+<script src="javascript/order.js"></script>
+</body>
+</html>
